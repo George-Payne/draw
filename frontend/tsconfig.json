@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": false,
+        "outDir": "dist",
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "esModuleInterop": true,
+        "rootDir": "./src",
+        "baseUrl": "."
+    }
+}

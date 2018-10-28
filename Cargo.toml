@@ -1,0 +1,15 @@
+[package]
+name = "draw"
+version = "0.1.0"
+authors = ["George Payne <georgepayne@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+[dependencies.rocket]
+git= "https://github.com/SergioBenitez/Rocket"
+[dependencies.rocket_codegen]
+git= "https://github.com/SergioBenitez/Rocket"
+[dependencies.rocket_contrib]
+git= "https://github.com/SergioBenitez/Rocket"
+default-features = false
+features = ["serve"]
